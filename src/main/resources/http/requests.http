@@ -1,0 +1,40 @@
+POST http://localhost/signIn
+Content-Type: application/json
+
+{
+  "email" : "alinka270200@gmail.com",
+  "password": "Dm43"
+}
+
+###
+
+POST http://localhost/calculate
+Content-Type: application/json
+
+{
+  "gender" : "female",
+  "formula": "harris",
+  "weight": "50",
+  "height": "160",
+  "age": "20",
+  "activity": "small"
+}
+
+###
+
+GET http://localhost/self
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2NyIsImxvZ2luIjoiYWxpbmFfaXRpcyIsInJvbGUiOiJVU0VSIn0.NR0Q4nxeZOZzieAlYFfA-jeZg9uMR6iwRpdy9BJjaZM
+
+###
+
+GET http://localhost/exercises
+
+###
+
+GET http://localhost/exercises/11
+
+###
+
+GET http://localhost/exercises/9/like
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2NyIsImxvZ2luIjoiYWxpbmFfaXRpcyIsInJvbGUiOiJVU0VSIn0.NR0Q4nxeZOZzieAlYFfA-jeZg9uMR6iwRpdy9BJjaZM
+###
